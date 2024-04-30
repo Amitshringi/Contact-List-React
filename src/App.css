@@ -1,0 +1,131 @@
+/* App.css */
+body {
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+h1 {
+  color: #fff;
+  background-color: #007bff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.form-hed{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:  #007bff;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+}
+.heading-Cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:  #007bff;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius:8px ;
+}
+
+form {
+  width: 60%; /* Adjust the width as needed */
+  max-width: 400px; /* Set a maximum width to prevent it from becoming too wide */
+  margin: 0 auto; /* Center the form horizontally */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+.title{
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+.listContainer {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 30px;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+.contact-info {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contactList {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 20px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-ctn {
+  display: flex;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+.email{
+  padding-left: 20px;
+}
+.phoneNo{
+  padding-left: 20px;
+}
